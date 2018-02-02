@@ -1,0 +1,29 @@
+// default component vars listed at the top of the component stylesheet
+// those vars are transferred to rev-settings AND are commented out
+// this way updates can be made to a component by uncommenting settings vars
+$calendar-bkgd: $card-bkgd !default;
+$calendar-border: $card-border !default;
+$calendar-width: 32rem !default;
+$calendar-body-width: 32rem !default;
+$calendar-header-bkgd: $card-bkgd !default;
+$calendar-header-height: $size-large !default;
+$calendar-max-height-animation: 35rem !default;
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content.dropdown-on-mouseover {
+  display: block;
+}

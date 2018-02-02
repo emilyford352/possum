@@ -71,6 +71,9 @@ export default function Navigation() {
 
           <Menu.Item text><strong>Prototyping</strong></Menu.Item>
           <Menu.Item><Link to="/components/Lipsum/">Lorem Ipsum</Link></Menu.Item>
+
+          <Menu.Item text><strong>Dropdowns</strong></Menu.Item>
+          <Menu.Item><Link to="/components/Dropdown/">Dropdown</Link></Menu.Item>
         </Menu>
       </nav>
     </Drawer>
